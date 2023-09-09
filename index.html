@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>condiciones js</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <script
+      src="https://kit.fontawesome.com/bc34976f73.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!--imagen borde con click-->
+    <div class="foto">
+      <img
+        class="auto"
+        id="bordes"
+        src="assets/img/imagen 1.png"
+        alt="imagen 1"
+      />
+    </div>
+
+    <!--seleccion de producto max 10-->
+    <div class="container">
+      <h2 class="texto">puedes llevar hasta 10 productos</h2>
+      <div class="venta">
+        <div class="cards">
+          <img class="producto" src="assets/img/imagen 2.png" alt="imagen 2" />
+          <input id="mando1" type="number1" />
+        </div>
+
+        <div class="cards">
+          <img class="producto" src="assets/img/imagen 3.png" alt="imagen 3" />
+          <input id="mando2" type="number2" />
+        </div>
+
+        <div class="cards">
+          <img class="producto" src="assets/img/imagen 4.png" alt="imagen 4" />
+          <input id="mando3" type="number3" />
+        </div>
+      </div>
+      <div class="boton">
+        <button class="resultado" id="resultados">ver mas</button>
+        <i
+          class="fa-sharp fa-solid fa-rotate-right"
+          id="#refrescar"
+          style="color: #f50505"
+        ></i>
+      </div>
+      <p>total productos <span id="parrafo">0</span></p>
+    </div>
+
+    <!--opcion de verificar password-->
+    <div class="verificador">
+      <div class="contenedor">
+        <div class="selector">
+          <h3>ingresa el password</h3>
+
+          <select name="" id="primerSelect">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+          </select>
+
+          <select name="" id="segundoSelect">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+          </select>
+
+          <select name="" id="tercerSelect">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+          </select>
+        </div>
+
+        <div class="ingresar">
+          <button class="igual" id="esigual">ingresar</button>
+        </div>
+
+        <p id="validacion"></p>
+      </div>
+    </div>
+    <!--link js-->
+
+    <script src="assets/script.js/script.js"></script>
+  </body>
+</html>

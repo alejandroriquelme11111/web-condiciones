@@ -1,0 +1,100 @@
+body {
+  background-color: black;
+}
+
+.foto {
+  display: flex;
+  justify-content: center;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+.auto {
+  border-radius: 10px;
+  height: 200px;
+  width: 250x;
+}
+
+.container {
+  border: 2px solid #e61010;
+}
+
+.venta {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.texto {
+  display: flex;
+  justify-content: center;
+  color: #ee0c0c;
+}
+.cards {
+  border-radius: 5px;
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  margin-right: 1rem;
+  overflow: hidden;
+}
+
+.producto {
+  border: 2px solid #f10d0d;
+  width: 10rem;
+  height: 10rem;
+  border-radius: 4px;
+}
+
+input {
+  margin-top: 0.5rem;
+  border: 2px solid #ee0c0c;
+  border-radius: 4px;
+}
+
+.boton {
+  text-align: center;
+
+  padding: 1rem;
+}
+.resultado {
+  border: 2px solid #ee0c0c;
+  border-radius: 4px;
+  background-color: #e61010;
+  margin: 0 1rem;
+}
+
+.verificador {
+  border: #ee0c0c solid 2px;
+
+  margin: 2rem 10rem 2rem 10rem;
+}
+
+h3 {
+  color: #f10d0d;
+}
+.contenedor {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.ingresar {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+select {
+  border: #e61010 2px solid;
+  border-radius: 4px;
+  background-color: #fe1919;
+}
+
+.igual {
+  border: #e61010 2px solid;
+  border-radius: 4px;
+
+  background-color: #e61010;
+}
+
+p {
+  color: #e61010;
+  text-align: center;
+}
